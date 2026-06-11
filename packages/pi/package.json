@@ -1,0 +1,16 @@
+{
+  "name": "@taskflow/pi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Deterministic finite-prefix Pi utilities for the TaskFlow bounty challenge.",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "tsx --test test/pi-prefix.test.ts",
+    "lint": "echo \"No PI lint configured yet\""
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5"
+  }
+}
